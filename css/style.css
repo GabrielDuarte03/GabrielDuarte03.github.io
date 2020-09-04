@@ -226,6 +226,7 @@ h1{
 /* Cor do indicador de rolagem */
 ::-webkit-scrollbar-thumb:vertical,
 ::-webkit-scrollbar-thumb:horizontal {
+	
     background-color: #BAC0C4
 }
 
