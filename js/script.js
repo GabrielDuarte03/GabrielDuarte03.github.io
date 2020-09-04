@@ -9,7 +9,7 @@ $(document).on('scroll', function() {
   if ($(this).scrollTop() >= total) {
     menu = document.getElementById('menu');
 	menu.style.background = 'black';
-	menu.style.opacity = 1;
+	menu.style.opacity = 1.0;
   }else{
 	menu = document.getElementById('menu');
 	menu.style.background = '#282A36FF';
