@@ -3,13 +3,15 @@ html{
 }
 body{
 	background-color: #d3d3d3;
+width:calc(100vw - 10px);
 }
+/*MENU*/
 .menu{
-	height:4vw;
+	height:50px;
 	background-color:#282A36FF;
 	opacity: 0.8;
 	position:fixed;
-	width: 100vw;
+	width:calc(100vw - 10px);
 
 }
 .todos{
@@ -35,12 +37,14 @@ a{
 a:hover{
 	text-decoration:none;
 }
+
+/*HOME*/
 .init{
 	width:calc(100vw - 10px);
-	height: 45.6vw;
+	height: 100vh;
 	background: url("../img/back.jpg");
 	background-repeat: no-repeat;
-	background-size: calc(100vw - 10px), 45.6vw;
+	background-size: calc(100vw - 10px), 100vh;
 }
 
 .init h2{
@@ -62,6 +66,7 @@ a:hover{
 	border-radius: 15px;
 	width: max-content;
 	display:flex;
+
 	flex-direction: column;
 	align-items: center;
 	padding: 5px;
@@ -79,10 +84,18 @@ a:hover{
 	padding: 0;
 	max-width: 100%;
 }
+
+
+
+
+
+/*SOBRE*/
 .sobre{
+	width:calc(100vw - 10px);
+	height:100vh;
 	background: url(../img/sobre.jpg);
 	background-repeat: no-repeat;
-	background-size: calc(100vw - 10px), 45.6vw;
+	background-size: calc(100vw - 10px), 100vh;
 }
 h1{
 	text-align: center;
@@ -92,9 +105,13 @@ h1{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-repeat: no-repeat;
+  height: 100vh;
+	background-size: calc(100vw - 10px), 100vh;
 
 }
 .sobre h1{
+	margin-top: 20px;
 	font-size: 35px;
 	color: white;
 }
@@ -102,10 +119,9 @@ h1{
 	width: 50%;
 	text-align: justify-all;
 	align-content: center;
-	font-size: 18px;
+	font-size: 17px;
 	color: white;
-	
-	padding: 10px;
+	padding-bottom: 100px;
 	border-radius: 20px;
 	
 }
@@ -115,10 +131,87 @@ h1{
 	font-family: 'Roboto', sans-serif;
 	text-decoration: underline;
 }
-.cod{
-	width: 50%;
-	height: 270px;
+
+
+
+
+
+/*PORTFÓLIO*/
+.port{
+	width:calc(100vw - 10px);
+	height:100vh;
+	background: url(../img/port.jpg);
+	background-repeat: no-repeat;
+	background-size: calc(100vw - 10px), 100vh;
 }
+
+.port h1{
+	margin-top: 20px;
+	font-size: 35px;
+	color: white;
+}
+.texto2{
+	width: 50%;
+	text-align: justify-all;
+	align-content: center;
+	font-size: 17px;
+	color: white;
+	padding-bottom: 100px;
+	border-radius: 20px;
+	
+}
+.texto a{
+	font-size: 20px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+/*CONTATO*/
+.cont{
+	width:calc(100vw - 10px);
+	height:100vh;
+	background: url(../img/port.jpg);
+	background-repeat: no-repeat;
+	background-size: calc(100vw - 10px), 100vh;
+}
+
+.cont h1{
+	margin-top: 20px;
+	font-size: 35px;
+	color: white;
+}
+.texto3{
+	width: 50%;
+	text-align: justify-all;
+	align-content: center;
+	font-size: 17px;
+	color: white;
+	padding-bottom: 100px;
+	border-radius: 20px;
+	
+}
+
+
+.texto3 a{
+	font-size: 20px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
 ::-webkit-scrollbar {
     width: 10px;
     position: fixed;
